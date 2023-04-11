@@ -34,6 +34,8 @@ pwd
 mkdir
 cp
 ```
+This output is what you should have:
+
    - More specific commands available to try out are:
 ```sh
 cd ~
@@ -42,6 +44,7 @@ ls -a
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
-   - asdf
+The commands output this:
+   
 ---
 
