@@ -23,7 +23,7 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
    - Type "yes" onto the command prompt, then type your course specific password when prompted and you are connected if you see this:
-
+![RemoteConnection](RemoteConnection.png)
   
 ## 3. Trying Some Commands
    - Some commands you could try out are:
@@ -35,7 +35,7 @@ mkdir
 cp
 ```
 This output is what you should have:
-
+![Commands](Commands.png)
    - More specific commands available to try out are:
 ```sh
 cd ~
@@ -45,6 +45,6 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 The commands output this:
-   
+![SpecificCommands](SpecificCommands.png)
 ---
 
