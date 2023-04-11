@@ -6,7 +6,7 @@
       - Download the [Visual Studio Code](https://code.visualstudio.com/) program with the option that matches your OS (Operating Software)
       - adsfa
       - asd
-
+      
 ## 2. Remotely Connecting
       -
       -
