@@ -22,9 +22,8 @@ The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
-   - Type "yes" onto the command prompt, then type your course specific password when prompted and you are connected if you see this
+   - Type "yes" onto the command prompt, then type your course specific password when prompted and you are connected if you see this:
 
- 
   
 ## 3. Trying Some Commands
    - Some commands you could try out are:
