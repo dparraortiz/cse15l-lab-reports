@@ -34,7 +34,7 @@ pwd
 mkdir
 cp
 ```
-This output is what you should have:
+This output is what you should have:\
 ![Commands](Commands.png)
    - More specific commands available to try out are:
 ```sh
