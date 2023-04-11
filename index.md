@@ -1,3 +1,3 @@
 # CSE 15L Lab 1
 **Hello, World!**
-*Java* 
+[lab1](lab1.md)
