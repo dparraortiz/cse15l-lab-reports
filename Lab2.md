@@ -21,8 +21,14 @@ Image of adding "How are you" message: <br>
 
 ## Part 2
 
-Failure Inducing Input:
-` `
+Failure Inducing Input: <br>
+`
+@Test 
+  public void testReversed2() { 
+    int[] input1 = { 3, 0, 8 }; 
+    assertArrayEquals(new int[]{ 8, 0, 3}, ArrayExamples.reversed(input1)); 
+  }   
+  `
 
 Successfull Inducing Input:
 ` `
