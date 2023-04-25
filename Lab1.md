@@ -46,8 +46,10 @@ This output is what you should have: <br/>
 cd ~ (Changes directory to user home directory)
 ls -lat (List contents of directory in long format)
 ls -a (List all files and directories in directory)
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ (Copies the hello.txt to current directory)
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt (Concatenates files and displays hello.txt contents)
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
+(Copies the hello.txt to current directory)
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt 
+(Concatenates files and displays hello.txt contents)
 ```
 The commands output this: <br/>
 <br/>
