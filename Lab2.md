@@ -22,13 +22,47 @@ Image of adding "How are you" message: <br>
 ## Part 2
 
 Failure Inducing Input: <br>
-`
+```
 @Test 
-  public void testReversed2() { 
-    int[] input1 = { 3, 0, 8 }; 
-    assertArrayEquals(new int[]{ 8, 0, 3}, ArrayExamples.reversed(input1)); 
-  }   
-  `
+public void testReversed2() { 
+  int[] input1 = { 3, 0, 8 }; 
+  assertArrayEquals(new int[]{ 8, 0, 3}, ArrayExamples.reversed(input1)); 
+}   
+ ```
 
-Successfull Inducing Input:
-` `
+Successful Inducing Input:
+```
+@Test
+public void testReversed() {
+  int[] input1 = { };
+  assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+} 
+ ```
+Symptom: <br/>
+![Symptom](Symptom.png) <br/>
+
+Code Before:
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
+<br/>
+Code After:
+
+```
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    newArray[i] = arr[arr.length - i - 1];
+  }
+  return newArray;
+}
+```
+
+
+## Part 3
