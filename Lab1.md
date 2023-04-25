@@ -28,21 +28,21 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ## 3. Trying Some Commands
    - Some commands you could try out are:
 ```sh
-cd
-ls
-pwd
-mkdir
-cp
+cd (Changes directory)
+ls (List contents of directory)
+pwd (Display current working directory)
+mkdir (Make new directory)
+cp (Copy directory)
 ```
 This output is what you should have:\
 ![Commands](Commands.png)
    - More specific commands available to try out are:
 ```sh
-cd ~
-ls -lat
-ls -a
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+cd ~ (Changes directory to user home directory)
+ls -lat (List contents of directory in long format)
+ls -a (List all files and directories in directory)
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ (Copies the hello.txt to current directory)
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt (Concatenates files and displays hello.txt contents)
 ```
 The commands output this:
 ![SpecificCommands](SpecificCommands.png)
