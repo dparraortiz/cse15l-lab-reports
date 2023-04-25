@@ -66,4 +66,5 @@ static int[] reversed(int[] arr) {
 
 
 ## Part 3
+
 Something that I learned from lab 2 that I didn't know before are what ports are and do. Every website you've ever been to has a port. Ports are extra parts added onto URLs that indicate which specific port websites are using. This part of the URL is usually hidden though. The port could vary between many numbers and public sites use either the ports 80 or 443.
