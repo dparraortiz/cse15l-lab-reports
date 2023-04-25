@@ -7,7 +7,7 @@
    - Follow the instructions you receive when you install VS Code
    - When installed, your screen should look something like this <br/>
 ![VSCodeOpen](VSCodeOpen.png) <br/>
-<br/>
+<br/><br/>
 
 ## 2. Remotely Connecting
    - For Windows users only, install [Git for Windows](https://gitforwindows.org/) and then to use [Bash](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994), follow this thread
@@ -27,7 +27,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
    - Type "yes" onto the command prompt, then type your course specific password when prompted and you are connected if you see: <br/>
 
 ![RemoteConnection](RemoteConnection.png) <br/>
-<br/>
+<br/><br/>
   
 ## 3. Trying Some Commands
    - Some commands you could try out are:
