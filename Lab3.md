@@ -1,10 +1,15 @@
 # Lab Report 3 - Researching Commands
 
+<br>
+
 ## Command Line Options
 - find -type
 - find -size
 - find -perm
 - find -mtime
+
+<br>
+
 ## Command Line Example find -type
 ```
 Command:
@@ -46,6 +51,8 @@ technical/government/Post_Rate_Comm
 technical/plos
 ```
 - The command `find -type d` allows you to search for directories. This command is useful because it allows you to search specificly for directories, it is useful when you are looking for specific directories within any directory. Source: ChatGPT
+
+<br>
 
 ## Command Line Example find -size
 ```
@@ -91,6 +98,8 @@ technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ```
 - The command `find -size +` allows you to search for files and directories that are bigger than a certain size. This command is useful because it allows you to easily find files that are above a certain size (in this case 100kb), it is useful when you want to delete certain files above a size threshold to free up lots of space. Source: ChatGPT
 
+<br>
+
 ## Command Line Example find -perm
 ```
 Command:
@@ -134,6 +143,8 @@ technical/government/Post_Rate_Comm
 technical/plos
 ```
 - The command `find -perm /g+x` allows you to search for files and directories that have execute permission for the group. This command is useful because it allows you to check if a file or directory has the correct group execute permissions, it is useful when you are troubleshootings and you need to check if it has the correct group execute permissions. Source: ChatGPT
+
+<br>
 
 ## Command Line Example find -mtime
 ```
