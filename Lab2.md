@@ -63,6 +63,7 @@ static int[] reversed(int[] arr) {
   return newArray;
 }
 ```
+- I noticed that the old code was copying `newArray[]` onto `arr[]` within the for loop. The goal of this code is to copy an array onto a new array therefore I changed the for loop to contain `newArray[i] = arr[arr.length - i - 1];` in order to start copying the `arr[]` onto the `newArray[]` in every index with the for loop. The old code also returned the old array which is not what we want, we want to return the new array so I used `return newArray;`.
 
 
 ## Part 3
