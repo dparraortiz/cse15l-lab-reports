@@ -39,14 +39,23 @@
 - Press `<i>` to insert a 2
 - Press `<esc> to exit out the insert mode
 - Type `:wq` in order to save your changes
+- Keys pressed `"vim ListExamples.java"`
 <br>
 
-!
+![ChangeIndex1](ChangeIndex1.png) 
 
 <br>
 
 
 ## 5. Run the tests, demonstrating that they now succeed
+- Run the tests by using the `bash` command on the test.sh file
+<br>
 
+![TestsSucceed](TestsSucceed.png) 
+
+<br>
 
 ## 6. Commit and push the resulting change to your Github account 
+- Use the command `git add` with ListExamples.java
+- Use the command `git commit -m` and name it
+- Use the command `git push origin main`
