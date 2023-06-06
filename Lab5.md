@@ -17,5 +17,6 @@
 I ran this command in order to test my code in junit but I received this error. I was wondering if there was something 
 wrong with my code or if I typed the command right. 
 ### TA Response
-- Hello there, when running tests for junit you have to use two commands. A possibility is that you may not have typed the 
-command that compiles the code first. I suggest going to 
+- Hello there, when running tests for junit you have to use two commands. By the looks of it, you only typed one command 
+on the terminal. A possibility is that you may not have typed the  command that compiles the code first. I suggest trying 
+that first and then using the command you're currently using. Hope this helps you out!
