@@ -29,3 +29,10 @@ I thought I was using the correct command but it seems like I may have inputted 
 You are on a Windows computer therefore you need to make sure the commands you copy are under Windows users. Make sure you get
 both commands to successfully be able to compile and run the junit tests. Your output after having used the corresponding 
 commands to your system on the terminal should look like this. 
+![TAOutput](TAOutput.png)
+
+## 2. Reflection
+- A cool thing I learned from the second half of the quarter in lab is using the command `vimtutor`. This was a really helpful 
+command in which I could use to edit files with. Something else I learned is how to create our own autograders which was a bit 
+easier than I thought it would be. Another cool thing I learned is how to use ssh keys. With ssh keys I was able to log into 
+my ssh without having to enter my password which was pretty neat. 
