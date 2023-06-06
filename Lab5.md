@@ -48,4 +48,4 @@ commands to your system on the terminal should look like this.
 - A cool thing I learned from the second half of the quarter in lab is using the command `vimtutor`. This was a really helpful 
 command in which I could use to edit files with. Something else I learned is how to create our own autograders which was a bit 
 easier than I thought it would be. Another cool thing I learned is how to use ssh keys. With ssh keys I was able to log into 
-my ssh without having to enter my password which was pretty neat. 
+my ssh without having to enter my password which was pretty cool.
